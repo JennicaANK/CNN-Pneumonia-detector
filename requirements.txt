@@ -1,0 +1,12 @@
+torch
+torchvision
+sentence-transformers
+chromadb
+groq
+streamlit
+pillow
+numpy
+matplotlib
+scikit-learn
+python-dotenv
+pypdf

@@ -1,0 +1,26 @@
+============================================================
+PNEUMONIA DETECTION RESNET - TRAINING SUMMARY
+============================================================
+
+RESNET PERFORMANCE
+========================================
+Best Validation Accuracy: 1.0000 (epoch 3)
+Test Accuracy: 0.9006
+Test Loss: 0.3228
+Correct/Total: 562/624
+
+RESNET ARCHITECTURE
+========================================
+Total Parameters: 11,177,538
+Trainable Parameters: 11,177,538
+Input Size: 3 x 224 x 224
+Output Classes: ['NORMAL', 'PNEUMONIA']
+
+TRAINING CONFIGURATION
+========================================
+Epochs: 20
+Batch Size: 32
+Learning Rate: 0.001
+Dropout Rate: 0.5
+Optimizer: Adam
+Device: mps

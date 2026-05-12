@@ -1,0 +1,54 @@
+{
+  "project": "Pneumonia Detection from Chest X-Rays",
+  "author": "Aye Nyein Kyaw",
+  "date": "2025-12-04 17:39:41.212283",
+  "image_settings": {
+    "size": 224,
+    "channels": 3,
+    "normalization": {
+      "mean": [
+        0.5,
+        0.5,
+        0.5
+      ],
+      "std": [
+        0.5,
+        0.5,
+        0.5
+      ]
+    }
+  },
+  "data_settings": {
+    "batch_size": 32,
+    "train_augmentation": [
+      "RandomHorizontalFlip",
+      "RandomRotation",
+      "ColorJitter"
+    ],
+    "dataset_sizes": {
+      "train": 5216,
+      "validation": 16,
+      "test": 624
+    }
+  },
+  "class_info": {
+    "classes": [
+      "NORMAL",
+      "PNEUMONIA"
+    ],
+    "class_to_idx": {
+      "NORMAL": 0,
+      "PNEUMONIA": 1
+    },
+    "training_distribution": {
+      "NORMAL": 1341,
+      "PNEUMONIA": 3875,
+      "Total": 5216
+    }
+  },
+  "paths": {
+    "train_dir": "data/chest_xray/train",
+    "val_dir": "data/chest_xray/val",
+    "test_dir": "data/chest_xray/test"
+  }
+}

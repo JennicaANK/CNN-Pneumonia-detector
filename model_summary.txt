@@ -1,0 +1,26 @@
+============================================================
+PNEUMONIA DETECTION MODEL - TRAINING SUMMARY
+============================================================
+
+MODEL PERFORMANCE
+========================================
+Best Validation Accuracy: 0.9809 (epoch 13)
+Test Accuracy: 0.7740
+Test Loss: 1.8783
+Correct/Total: 483/624
+
+MODEL ARCHITECTURE
+========================================
+Total Parameters: 26,211,842
+Trainable Parameters: 26,211,842
+Input Size: 3 x 224 x 224
+Output Classes: ['NORMAL', 'PNEUMONIA']
+
+TRAINING CONFIGURATION
+========================================
+Epochs: 15
+Batch Size: 32
+Learning Rate: 0.001
+Dropout Rate: 0.5
+Optimizer: Adam
+Device: mps
